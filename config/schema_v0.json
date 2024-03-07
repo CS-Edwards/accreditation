@@ -1,0 +1,21 @@
+{
+    "classes": [
+        {
+            "class": "Standards",
+            "description": "Business Accreditation Standards",
+            "vectorizer": "text2vec-openai",
+            "moduleConfig": {
+                "generative-openai": {
+                     "model": "gpt-3.5-turbo"
+                 }
+            },
+            "properties": [
+                {
+                   "name": "Content",
+                   "dataType": ["text"],
+                   "description": "Accreditation Standard definitions and information"
+                }
+             ]
+         }
+     ]
+}
