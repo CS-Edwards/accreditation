@@ -2,7 +2,6 @@
 import os
 import json
 import weaviate
-
 from dotenv import load_dotenv
 
 
